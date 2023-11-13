@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Springly</title>
+    <link rel="stylesheet" href="./asset/css/style.css">
+</head>
+<body>
+    <!-- header-section -->
+   <header>
+        <div class="my-container">
+            <nav>
+                <div class="m-nav-opt">
+                    <button id="humburger-icon">
+                        <span class="line line-1"></span>
+                        <span class="line line-2"></span>
+                        <span class="line line-3"></span>
+                    </button>
+                </div>
+                <div class="logo" onclick="window.location.href='index.html'">
+                    <img src="./image/Color H@4x 2.png" alt="">
+                </div>
+                <div class="nav-menu">
+                    <ul class="nav-list">
+                        <li><a href="./press.html">Services</a></li>
+                        <li><a href="./providers.html">For Providers</a></li>
+                        <li><a href="./yep.html">Resources</a></li>
+                        <li><a href="./event.html">Buy Now</a></li>
+                        <li><a href="./blog.html">Blog</a></li>
+                        <li><a href="./about.html">About</a></li>
+                    </ul>
+                </div>
+                <div class="nav-butotn">
+                    <button class="nav-btn-1">Sign Up</button>
+                    <button class="nav-btn-2">Log In</button>
+                </div>
+                <div class="m-log-in-opt">
+                    <button>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 24 24"><path fill="currentColor" d="M12 19.2c-2.5 0-4.71-1.28-6-3.2c.03-2 4-3.1 6-3.1s5.97 1.1 6 3.1a7.232 7.232 0 0 1-6 3.2M12 5a3 3 0 0 1 3 3a3 3 0 0 1-3 3a3 3 0 0 1-3-3a3 3 0 0 1 3-3m0-3A10 10 0 0 0 2 12a10 10 0 0 0 10 10a10 10 0 0 0 10-10c0-5.53-4.5-10-10-10Z"/></svg>
+                    </button>
+                </div>
+            </nav>
+        </div>
+   </header>
+   <!-- dashboard-section -->
+   <section class="dashboard">
+    <div class="my-container">
+        <div class="my-row">
+            <div class="cl-lg-3 flex-grow">
+                <ul class="dash-list">
+                    <li>
+                        <a href="#" data-list="home" class="list-a active">
+                           <span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"><path fill="currentColor" d="M10 14h4v-2h-4v2Zm0-3h8V9h-8v2Zm0-3h8V6h-8v2ZM8 18q-.825 0-1.413-.588T6 16V4q0-.825.588-1.413T8 2h12q.825 0 1.413.588T22 4v12q0 .825-.588 1.413T20 18H8Zm-4 4q-.825 0-1.413-.588T2 20V6h2v14h14v2H4Z"/></svg></span>
+                           <span>Home</span>
+                       </a>
+                    </li>
+                    <li>
+                        <a href="#" data-list="Bookings" class="list-a">
+                           <span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"><path fill="currentColor" d="M10 14h4v-2h-4v2Zm0-3h8V9h-8v2Zm0-3h8V6h-8v2ZM8 18q-.825 0-1.413-.588T6 16V4q0-.825.588-1.413T8 2h12q.825 0 1.413.588T22 4v12q0 .825-.588 1.413T20 18H8Zm-4 4q-.825 0-1.413-.588T2 20V6h2v14h14v2H4Z"/></svg></span>
+                           <span>Bookings</span>
+                       </a>
+                    </li>
+                    <li>
+                        <a href="#" data-list="Membership" class="list-a">
+                           <span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"><path fill="currentColor" d="M10 14h4v-2h-4v2Zm0-3h8V9h-8v2Zm0-3h8V6h-8v2ZM8 18q-.825 0-1.413-.588T6 16V4q0-.825.588-1.413T8 2h12q.825 0 1.413.588T22 4v12q0 .825-.588 1.413T20 18H8Zm-4 4q-.825 0-1.413-.588T2 20V6h2v14h14v2H4Z"/></svg></span>
+                           <span>Membership</span>
+                       </a>
+                    </li>
+
+                    <li>
+                        <a href="#" data-list="Intake Form" class="list-a">
+                           <span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"><path fill="currentColor" d="M10 14h4v-2h-4v2Zm0-3h8V9h-8v2Zm0-3h8V6h-8v2ZM8 18q-.825 0-1.413-.588T6 16V4q0-.825.588-1.413T8 2h12q.825 0 1.413.588T22 4v12q0 .825-.588 1.413T20 18H8Zm-4 4q-.825 0-1.413-.588T2 20V6h2v14h14v2H4Z"/></svg></span>
+                           <span>Intake Form</span>
+                       </a>
+                    </li>
+                    <li>
+                        <a href="#" data-list="Notification" class="list-a">
+                           <span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"><path fill="currentColor" d="M10 14h4v-2h-4v2Zm0-3h8V9h-8v2Zm0-3h8V6h-8v2ZM8 18q-.825 0-1.413-.588T6 16V4q0-.825.588-1.413T8 2h12q.825 0 1.413.588T22 4v12q0 .825-.588 1.413T20 18H8Zm-4 4q-.825 0-1.413-.588T2 20V6h2v14h14v2H4Z"/></svg></span>
+                           <span>Notification</span>
+                       </a>
+                    </li>
+                    <li>
+                        <a href="#" data-list="Profile" class="list-a">
+                           <span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"><path fill="currentColor" d="M10 14h4v-2h-4v2Zm0-3h8V9h-8v2Zm0-3h8V6h-8v2ZM8 18q-.825 0-1.413-.588T6 16V4q0-.825.588-1.413T8 2h12q.825 0 1.413.588T22 4v12q0 .825-.588 1.413T20 18H8Zm-4 4q-.825 0-1.413-.588T2 20V6h2v14h14v2H4Z"/></svg></span>
+                           <span>Profile</span>
+                       </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="cl-lg-8">
+                <div class="dash-content" id="home">
+                    <div class="h-proname">
+                        <div>
+                            <b>Hello,</b>
+                            <strong>Nabil Ahmed Emon</strong>
+                        </div>
+                        <p><span>nabilemon.qtec@gmail.com</span></p>
+                    </div>
+                    <div class="com-profile">
+                        <div class="com-text">
+                            <div class="com-imo">
+                                <img src="./image/Emoji 7.png" alt="">
+                            </div>
+                            <div class="com-imo-txt">
+                                <h4>Please Complete Your Profile First! </h4>
+                                <p>Because we need your Name, Mail and other information for booking process.</p>
+                            </div>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="inner-progress"></div>
+                            <span>75% completed</span>
+                        </div>
+                        <div class="input-area">
+                            <div class="dinput-box">
+                                <input type="checkbox" id="check-1">
+                                <label for="check-1">Verify email</label>
+                            </div>
+                            <div class="dinput-box">
+                                <input type="checkbox" id="check-2">
+                                <label for="check-2">Verify email</label>
+                            </div>
+                            <div class="dinput-box">
+                                <input type="checkbox" id="check-3">
+                                <label for="check-3">Filling up your Intake form</label>
+                            </div>
+                            <div class="dinput-box">
+                                <input type="checkbox" id="check-4">
+                                <label for="check-4">Have a session</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dash-content" id="Bookings">
+                    <div class="img-box">
+                        <img src="./image/image-m.png" alt="">
+                    </div>
+                    <form action="#" class="pro-form">
+                        <div class="input-box pro-in-box">
+                            <label for="name">Name</label>
+                            <input type="text" id="name">
+                        </div>
+                        <div class="input-box pro-in-box">
+                            <label for="Mail">Mail</label>
+                            <input type="email" id="Mail">
+                        </div>
+                        <div class="input-box pro-in-box">
+                            <label for="tel">Phone Number</label>
+                            <input type="tel" id="tel">
+                        </div>
+                        <div class="input-box pro-in-box">
+                            <label for="Address">Address</label>
+                            <input type="text" id="Address">
+                        </div>
+                        
+                    </form>
+                    <div class="save-btn">
+                        <button class="global-btn">Save</button>
+                    </div>
+                </div>
+
+                <div class="dash-content" id="Membership">
+                    <div class="noti-heading">
+                        <h5>Your Notifications</h5>
+                    </div>
+                    <div class="announce">
+                        <div class="announce-c">
+                            <span></span>
+                            <p><strong>Announcement:</strong>  👋 Introducing Interests and Industry - you can now set yours! </p>
+                            <button>Read more</button>
+                        </div>
+                        <div class="announce-c">
+                            <span></span>
+                            <p><strong>Announcement:</strong>  👋 Introducing Interests and Industry - you can now set yours! </p>
+                            <button>Read more</button>
+                        </div>
+                        <div class="announce-c">
+                            <span></span>
+                            <p><strong>Announcement:</strong> 👋 Introducing Interests and Industry - you can now set yours! </p>
+                            <button>Read more</button>
+                        </div>
+                        <div class="announce-c">
+                            <span></span>
+                            <p><strong>Announcement:</strong>  👋 Introducing Interests and Industry - you can now set yours! </p>
+                            <button>Read more</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dash-content" id="Intake Form">
+                    <div class="noti-heading">
+                        <h5>Your Bookings</h5>
+                        <div class="booking-btn-area">
+                            <button class="booking-btn booking-bg">Upcoming</button>
+                            <button class="booking-btn">Past</button>
+                        </div>
+                    </div>
+
+                    <div class="booking-info">
+                        <div class="book-c-1">
+                            <div class="book-c-l">
+                                <div class="session">
+                                    <p>Session ID: 256 865 252</p>
+                                    <p>
+                                        <span><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"><path fill="currentColor" d="M19 4h-2V3a1 1 0 0 0-2 0v1H9V3a1 1 0 0 0-2 0v1H5a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3Zm1 15a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-7h16Zm0-9H4V7a1 1 0 0 1 1-1h2v1a1 1 0 0 0 2 0V6h6v1a1 1 0 0 0 2 0V6h2a1 1 0 0 1 1 1Z"/></svg></span>14th Feb, Saturday, 2022
+                                    </p>
+                                </div>
+                                <div class="session">
+                                    <p>Provider Name: Dr Istiak Tushar</p>
+                                    <p>
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 256 256"><path fill="currentColor" d="M128 20a108 108 0 1 0 108 108A108.12 108.12 0 0 0 128 20Zm0 192a84 84 0 1 1 84-84a84.09 84.09 0 0 1-84 84Zm68-84a12 12 0 0 1-12 12h-56a12 12 0 0 1-12-12V72a12 12 0 0 1 24 0v44h44a12 12 0 0 1 12 12Z"/></svg>
+                                        </span>
+                                            6.00 pm-7.00 pm
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="book-c-r">
+                                <button>Consultancy</button>
+                            </div>
+                        </div>
+                        <div class="book-c-2">
+                            <div class="book-btn">
+                                <button class="nav-btn-2">Intake Form</button>
+                                <button class="nav-btn-1">Join Meeting</button>
+                            </div>
+                            <button class="reschedule">Reschedule</button>
+                        </div>
+                    </div>
+
+                    <div class="booking-info book-info-2">
+                        <div class="book-c-top">
+                            <div class="bo-c-txt">
+                                <div><img src="./image/😬.png" alt=""></div>
+                                <p>
+                                    Unfortunately your provider cancel this schedule. <br>
+                                    Your Provider request you to reschedule this.
+                                </p>
+                            </div>
+                            <div class="bo-c-btn">
+                                <button class="global-btn">Reschedule</button>
+                                <button class="refund">Refund</button>
+                            </div>
+                        </div>
+                        <div class="book-c-1">
+                            <div class="book-c-l">
+                                <div class="session">
+                                    <p>Session ID: 256 865 252</p>
+                                    <p>
+                                        <span><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"><path fill="currentColor" d="M19 4h-2V3a1 1 0 0 0-2 0v1H9V3a1 1 0 0 0-2 0v1H5a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3Zm1 15a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-7h16Zm0-9H4V7a1 1 0 0 1 1-1h2v1a1 1 0 0 0 2 0V6h6v1a1 1 0 0 0 2 0V6h2a1 1 0 0 1 1 1Z"/></svg></span>14th Feb, Saturday, 2022
+                                    </p>
+                                </div>
+                                <div class="session">
+                                    <p>Provider Name: Dr Istiak Tushar</p>
+                                    <p>
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 256 256"><path fill="currentColor" d="M128 20a108 108 0 1 0 108 108A108.12 108.12 0 0 0 128 20Zm0 192a84 84 0 1 1 84-84a84.09 84.09 0 0 1-84 84Zm68-84a12 12 0 0 1-12 12h-56a12 12 0 0 1-12-12V72a12 12 0 0 1 24 0v44h44a12 12 0 0 1 12 12Z"/></svg>
+                                        </span>
+                                            6.00 pm-7.00 pm
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="book-c-r">
+                                <button>Consultancy</button>
+                            </div>
+                        </div>
+                        <div class="book-c-2">
+                            <div class="book-btn">
+                                <button class="nav-btn-2">Intake Form</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="booking-info book-info-2">
+                        <div class="book-c-1">
+                            <div class="book-c-l">
+                                <div class="session">
+                                    <p>Session ID: 256 865 252</p>
+                                    <p>
+                                        <span><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"><path fill="currentColor" d="M19 4h-2V3a1 1 0 0 0-2 0v1H9V3a1 1 0 0 0-2 0v1H5a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3Zm1 15a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-7h16Zm0-9H4V7a1 1 0 0 1 1-1h2v1a1 1 0 0 0 2 0V6h6v1a1 1 0 0 0 2 0V6h2a1 1 0 0 1 1 1Z"/></svg></span>14th Feb, Saturday, 2022
+                                    </p>
+                                </div>
+                                <div class="session">
+                                    <p>Provider Name: Dr Istiak Tushar</p>
+                                    <p>
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 256 256"><path fill="currentColor" d="M128 20a108 108 0 1 0 108 108A108.12 108.12 0 0 0 128 20Zm0 192a84 84 0 1 1 84-84a84.09 84.09 0 0 1-84 84Zm68-84a12 12 0 0 1-12 12h-56a12 12 0 0 1-12-12V72a12 12 0 0 1 24 0v44h44a12 12 0 0 1 12 12Z"/></svg>
+                                        </span>
+                                            6.00 pm-7.00 pm
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="book-c-r">
+                                <button>Consultancy</button>
+                            </div>
+                        </div>
+                        <div class="book-c-2">
+                            <div class=" book-btn">
+                                <button class="nav-btn-2">Intake Form</button>
+                                <button class="nav-btn-1">Join Meeting</button>
+                            </div>
+                            <button class="reschedule">Reschedule</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dash-content" id="Notification">
+                    <div class="member-con">
+                        <div class="my-row md-justify-center">
+                            <div class="cl-lg-4 ">
+                                <div class="img-box">
+                                    <img src="./image/Frame 10.png" alt="">
+                                </div>
+                            </div>
+                            <div class="cl-lg-8 cl-mdl-12">
+                                <div class="mem-con ">
+                                    <div class="mem-l">
+                                        <ul>
+                                            <li>Total 1 Group Meditation</li>
+                                            <li>Completed 0</li>
+                                            <li>Remaining 1</li>
+                                        </ul>
+                                    </div>
+                                    <div class="mem-r">
+                                        <button class="global-btn">Book Session ( 1 )</button>
+                                    </div>
+                                </div>
+                                <div class="mem-con mer-top">
+                                    <div class="mem-l">
+                                        <ul>
+                                            <li>Total 1 Group Meditation</li>
+                                            <li>Completed 0</li>
+                                            <li>Remaining 1</li>
+                                        </ul>
+                                    </div>
+                                    <div class="mem-r">
+                                        <button class="global-btn">Book Session ( 1 )</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dash-content active" id="Profile">
+                    <div class="noti-heading">
+                        <h5>Your Bookings/Intake form</h5>
+                    </div>
+                    <div class="booking-info book-info-2">
+                        <div class="book-c-1">
+                            <div class="book-c-l">
+                                <div class="session">
+                                    <p>Session ID: 256 865 252</p>
+                                    <p>
+                                        <span><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"><path fill="currentColor" d="M19 4h-2V3a1 1 0 0 0-2 0v1H9V3a1 1 0 0 0-2 0v1H5a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3Zm1 15a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-7h16Zm0-9H4V7a1 1 0 0 1 1-1h2v1a1 1 0 0 0 2 0V6h6v1a1 1 0 0 0 2 0V6h2a1 1 0 0 1 1 1Z"/></svg></span>14th Feb, Saturday, 2022
+                                    </p>
+                                </div>
+                                <div class="session">
+                                    <p>Provider Name: Dr Istiak Tushar</p>
+                                    <p>
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 256 256"><path fill="currentColor" d="M128 20a108 108 0 1 0 108 108A108.12 108.12 0 0 0 128 20Zm0 192a84 84 0 1 1 84-84a84.09 84.09 0 0 1-84 84Zm68-84a12 12 0 0 1-12 12h-56a12 12 0 0 1-12-12V72a12 12 0 0 1 24 0v44h44a12 12 0 0 1 12 12Z"/></svg>
+                                        </span>
+                                            6.00 pm-7.00 pm
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="book-c-r">
+                                <button>Consultancy</button>
+                            </div>
+                        </div>
+                        <div class="book-c-2">
+                            <div class=" book-btn">
+                                <button class="nav-btn-1">Join Meeting</button>
+                            </div>
+                            <button class="reschedule">Reschedule</button>
+                        </div>
+
+                        <div class="booking-btn-area">
+                            <button class="booking-btn intake-bg">Personal Information</button>
+                            <button class="booking-btn">Mental Health Status/History</button>
+                        </div>
+
+                        <form action="" class="intake-form">
+                            <div class="input-box intake-input">
+                                <label for="Name">Name</label>
+                                <input type="text" id="Name">
+                            </div>
+                            <div class="input-box intake-input">
+                                <label for="Age">Age</label>
+                                <input type="number" id="Age">
+                            </div>
+                            <div class="input-box intake-input">
+                                <label for="tel">Phone Number</label>
+                                <input type="tel" id="tel">
+                            </div>
+                            <div class="input-box intake-input">
+                                <label for="email">Email</label>
+                                <input type="email" id="email">
+                            </div>
+                            <div class="input-box intake-input">
+                                <label for="Address">Address</label>
+                                <input type="text" id="Address">
+                            </div>
+                            <div class="input-box intake-input">
+                                <label for="Birth">Date of Birth</label>
+                                <input type="date" id="Birth">
+                            </div>
+                            <div class="intake-radio">
+                                <div>
+                                    <label for="Birth" class="radio-label">Gender</label>
+                                </div>
+
+                                <div class="radio-box-wrapper">
+                                    <div class="radio-box">
+                                        <input type="radio" id="Male">
+                                        <label for="Male">Male</label>
+                                    </div>
+                                    
+                                    <div class="radio-box">
+                                        <input type="radio" id="Female">
+                                       <label for="Female">Female</label>
+                                    </div>
+    
+    
+                                    <div class="radio-box">
+                                        <input type="radio" id="Other">
+                                        <label for="Other">Other</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="intake-select">
+                                <label for="cars">Occupation</label>
+                                <select name="cars" id="cars" placeholder="Please Select">
+                                  <option value="teacher">teacher</option>
+                                  <option value="business">business</option>
+                                  <option value="web-developer">Mercedes</option>
+                                </select> 
+                            </div>
+                            <div class="input-box intake-input">
+                                <label for="Contact">Emergency Contact Person Name</label>
+                                <input type="text" id="Contact">
+                            </div>
+                            <div class="intake-select">
+                                <label for="cars">Relationship of Emergency Contact Person</label>
+                                <select name="cars" id="cars" placeholder="Please Select">
+                                  <option value="father">Father</option>
+                                  <option value="Brother">Brother</option>
+                                  <option value="Husband/wife">Husband/wife</option>
+                                </select> 
+                            </div>
+                            <div class="input-box intake-input">
+                                <label for="Emergency">Phone Number of Emergency Contact Person</label>
+                                <input type="tel" id="Emergency">
+                            </div>
+                            <div class="intake-btn-area">
+                                <button class="global-btn intake-btn">
+                                    <span>Continue</span>
+                                    <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24"><g fill="none" fill-rule="evenodd"><path d="M24 0v24H0V0h24ZM12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035c-.01-.004-.019-.001-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427c-.002-.01-.009-.017-.017-.018Zm.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093c.012.004.023 0 .029-.008l.004-.014l-.034-.614c-.003-.012-.01-.02-.02-.022Zm-.715.002a.023.023 0 0 0-.027.006l-.006.014l-.034.614c0 .012.007.02.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01l-.184-.092Z"/><path fill="currentColor" d="M15.707 11.293a1 1 0 0 1 0 1.414l-5.657 5.657a1 1 0 1 1-1.414-1.414l4.95-4.95l-4.95-4.95a1 1 0 0 1 1.414-1.414l5.657 5.657Z"/></g></svg>
+                                    </span>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   </section>
+   <!-- footer-section -->
+   <footer>
+    <div class="my-container">
+        <div class="my-row md-justify-center">
+            <div class="cl-lg-4 d-p-4 cl-md-12">
+                <div class="footer-left">
+                    
+                    <ul  class="footer-list">
+                        <div class="f-logo">
+                            <img src="./image/Color H@4x 2.png" alt="">
+                        </div>
+                        <li class="f-li f-li-1">
+                           <button class="f-li-btn">Sign Up</button>
+                        </li>
+                        <li class="f-li">
+                            <span>Already a member?</span>
+                            <button class="f-li-btn">log in</button>
+                         </li>
+                         <li class="f-li">
+                            <span>Want to join our provider network?</span>
+                            <button class="f-li-btn">Apply here</button>
+                         </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="cl-lg-4 d-p-4 cl-md-12">
+                <ul class="footer-middle-list">
+                    <h6>About</h6>
+                    <li><a href="#">For Individuals</a></li>
+                    <li><a href="#">For Organizations</a></li>
+                    <li><a href="#">For Providers</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="cl-lg-4 d-p-4 cl-md-12">
+                <ul class="footer-right-list">
+                    <h6>Contact </h6>
+                    <li>+880 1967 322 539</li>
+                    <li><a href="mailto">support@mindly.xyz</a></li>
+                    <li class=f_r_li>
+                        <a href="#">House: 11, Road: 6, Block: E,
+                        Niketon, Gulshan-1, Dhaka-1212, Bangladesh</a>
+                    </li>
+                    <li class="social-link">
+                        <a href="">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2.04c-5.5 0-10 4.49-10 10.02c0 5 3.66 9.15 8.44 9.9v-7H7.9v-2.9h2.54V9.85c0-2.51 1.49-3.89 3.78-3.89c1.09 0 2.23.19 2.23.19v2.47h-1.26c-1.24 0-1.63.77-1.63 1.56v1.88h2.78l-.45 2.9h-2.33v7a10 10 0 0 0 8.44-9.9c0-5.53-4.5-10.02-10-10.02Z"/></svg>
+                        </a>
+                        <a href="">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M20.47 2H3.53a1.45 1.45 0 0 0-1.47 1.43v17.14A1.45 1.45 0 0 0 3.53 22h16.94a1.45 1.45 0 0 0 1.47-1.43V3.43A1.45 1.45 0 0 0 20.47 2ZM8.09 18.74h-3v-9h3ZM6.59 8.48a1.56 1.56 0 1 1 0-3.12a1.57 1.57 0 1 1 0 3.12Zm12.32 10.26h-3v-4.83c0-1.21-.43-2-1.52-2A1.65 1.65 0 0 0 12.85 13a2 2 0 0 0-.1.73v5h-3v-9h3V11a3 3 0 0 1 2.71-1.5c2 0 3.45 1.29 3.45 4.06Z"/></svg>
+                        </a>
+                        <a href="">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M12 8.75a3.25 3.25 0 1 0 0 6.5a3.25 3.25 0 0 0 0-6.5Z"/><path fill="currentColor" fill-rule="evenodd" d="M6.77 3.082a47.472 47.472 0 0 1 10.46 0c1.899.212 3.43 1.707 3.653 3.613a45.67 45.67 0 0 1 0 10.61c-.223 1.906-1.754 3.401-3.652 3.614a47.468 47.468 0 0 1-10.461 0c-1.899-.213-3.43-1.708-3.653-3.613a45.672 45.672 0 0 1 0-10.611C3.34 4.789 4.871 3.294 6.77 3.082ZM17 6a1 1 0 1 0 0 2a1 1 0 0 0 0-2Zm-9.75 6a4.75 4.75 0 1 1 9.5 0a4.75 4.75 0 0 1-9.5 0Z" clip-rule="evenodd"/></svg>
+                        </a>
+                        <a href="">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 14 14"><path fill="currentColor" d="M7 0c3.87 0 7 3.13 7 7s-3.13 7-7 7s-7-3.13-7-7s3.13-7 7-7ZM5.72 10.69c3.1 0 4.8-2.57 4.8-4.8v-.22c.33-.24.62-.54.84-.88c-.3.13-.63.22-.97.27c.35-.21.62-.54.74-.93c-.33.19-.69.33-1.07.41c-.31-.33-.75-.53-1.23-.53c-.93 0-1.69.76-1.69 1.69c0 .13.01.26.05.38c-1.4-.07-2.65-.74-3.48-1.76c-.14.25-.23.54-.23.85c0 .58.3 1.1.75 1.4c-.28 0-.54-.08-.76-.21v.02c0 .82.58 1.5 1.35 1.66c-.14.04-.29.06-.44.06c-.11 0-.21-.01-.32-.03c.21.67.84 1.16 1.57 1.17c-.58.45-1.31.72-2.1.72c-.14 0-.27 0-.4-.02c.74.48 1.63.76 2.58.76" class="cls-1"/></svg>
+                        </a>
+                    </li>
+                    <div class="payment-methods">
+                        <p>Payment Methods</p>
+                        <ul>
+                            <li><img src="./image/PayPal.png" alt=""></li>
+                            <li><img src="./image/MasterCard.png" alt=""></li>
+                            <li><img src="./image/Visa.png" alt=""></li>
+                            <li><img src="./image/American Express.png" alt=""></li>
+                        </ul>
+                    </div>
+                </ul>
+              
+            </div>
+        </div>
+    </div>
+   </footer>
+    <!-- off-canvas -->
+    <div class="off-canvas-wrapper">
+        <div class="off-canvas-body">
+            <div class="off-canvas-header">
+                <div class="m-logo">
+                    <img src="./image/Color H@4x 2.png" alt="">
+                </div>
+                <div class="close-btn">
+                    <button id="offcanvas-close">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="m12 13.4l-4.9 4.9q-.275.275-.7.275t-.7-.275q-.275-.275-.275-.7t.275-.7l4.9-4.9l-4.9-4.9q-.275-.275-.275-.7t.275-.7q.275-.275.7-.275t.7.275l4.9 4.9l4.9-4.9q.275-.275.7-.275t.7.275q.275.275.275.7t-.275.7L13.4 12l4.9 4.9q.275.275.275.7t-.275.7q-.275.275-.7.275t-.7-.275L12 13.4Z"/></svg>
+                    </button>
+                </div>
+            </div>
+            <div class="off-canvas-content">
+                <ul class="m-nav-list">
+                    <li>
+                        <div class="m-accordion-header">
+                            <a href="#">Services</a>
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M16.293 9.293L12 13.586L7.707 9.293l-1.414 1.414L12 16.414l5.707-5.707z"/></svg>
+                            </span>
+                        </div>
+                        <div class="m-nav-accordion-content">
+                            <ul class="nav-accor_ul">
+                                <li><a href="#">Events</a></li>
+                                <li><a href="#">Blogs</a></li>
+                                <li><a href="#">Watch Videos</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#">For Providers</a></li>
+                    <li>
+                        <div class="m-accordion-header">
+                            <a href="#">Services</a>
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M16.293 9.293L12 13.586L7.707 9.293l-1.414 1.414L12 16.414l5.707-5.707z"/></svg>
+                            </span>
+                        </div>
+                        <div class="m-nav-accordion-content">
+                            <ul class="nav-accor_ul">
+                                <li><a href="#">Events</a></li>
+                                <li><a href="#">Blogs</a></li>
+                                <li><a href="#">Watch Videos</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#">Buy Now</a></li>
+                    <li>
+                        <div class="m-accordion-header">
+                            <a href="#">Services</a>
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M16.293 9.293L12 13.586L7.707 9.293l-1.414 1.414L12 16.414l5.707-5.707z"/></svg>
+                            </span>
+                        </div>
+                        <div class="m-nav-accordion-content">
+                            <ul class="nav-accor_ul">
+                                <li><a href="#">Events</a></li>
+                                <li><a href="#">Blogs</a></li>
+                                <li><a href="#">Watch Videos</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </div>
+            <div class="off-canvas-footer">
+                <div class="m-nav-butotn">
+                    <button class="nav-btn-1">Sign Up</button>
+                    <button class="nav-btn-2">Log In</button>
+                </div>
+            </div>
+        </div>
+    </div>
+   <script src="./asset/js/index.js"></script>
+   <script src="./asset/js/member-dash.js"></script>
+</body>
+</html>
